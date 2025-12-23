@@ -1,0 +1,11 @@
+# Secrets - NEVER COMMIT THESE
+.env
+
+# Python Virtual Environment
+.venv/
+venv/
+__pycache__/
+
+# IDE Settings (Optional but good practice)
+.vscode/
+.idea/
