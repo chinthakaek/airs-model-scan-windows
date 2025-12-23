@@ -21,7 +21,7 @@ example output - Python 3.12.10
 
 1.  **Clone the repository:**
     ```powershell
-    git clone https://github.com/chinthakaek/airs-model-scan-windows
+    git clone https://github.com/chinthakaek/airs-model-scan-windows.git
     cd airs-model-scan-windows
     ```
 
