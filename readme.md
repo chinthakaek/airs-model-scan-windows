@@ -1,4 +1,4 @@
-# Model Security Scanner (Windows/PowerShell)
+# Prisma AIRS Model Security Scanner (Windows/PowerShell)
 
 This repository contains PowerShell automation for scanning AI models using the Palo Alto Networks Model Security CLI. It handles authentication, virtual environment management, and execution of scans against both Hugging Face URLs and local directories.
 
