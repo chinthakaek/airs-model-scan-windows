@@ -17,6 +17,12 @@ https://www.python.org/downloads/windows/
 Verify by using > python --version
 example output - Python 3.12.10
 
+If your get an error that poweshell scripts are not allowed then use the following command to enable execution of powershell scripts
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+
 ## Setup
 
 1.  **Clone the repository:**
@@ -41,4 +47,4 @@ example output - Python 3.12.10
 To scan a public model hosted on Hugging Face:
 
 ```powershell
-.\Scan-Model.ps1 -Type hf -Target "[https://huggingface.co/microsoft/DialoGPT-medium](https://huggingface.co/microsoft/DialoGPT-medium)"
+.\Scan-Model.ps1 -Type hf -Target "https://huggingface.co/microsoft/DialoGPT-medium"
